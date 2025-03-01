@@ -1,0 +1,5 @@
+trajectory_publisher_saver:
+  ros__parameters:
+    odom_topic: "/odom"
+    marker_topic: "/trajectory_marker"
+    trajectory_folder_path: "/tmp/" 

@@ -1,0 +1,6 @@
+trajectory_reader_publisher:
+  ros__parameters:
+    odom_topic: "/odom"
+    marker_topic: "/trajectory_marker"
+    trajectory_folder_path: "/tmp/"
+    trajectory_file_name: "test"
