@@ -107,7 +107,7 @@ To save the last 10 seconds of trajectory data to a file named `test.json` insid
 ros2 service call /save_trajectory trajectory_tools/srv/SaveTrajectory "{filename: 'test', duration: 10.0}"
 ```
 
-<video controls src="media/trajectory_publisher_saver.mp4" title="trajectory_publisher_saver"></video>
+![Trajectory Publisher Saver in Action](media/trajectory_publisher_saver.gif)
 
 ### 3. Running the Trajectory Reader and Publisher Node
 
@@ -145,4 +145,4 @@ ros2 launch trajectory_tools trajectory_reader_publisher.launch.py
 
 In order to view the visualized the trajectory data in `MarkerArrays` we have to switch to the rviz2 window.
 
-<video controls src="media/trajectory_reader_publisher.mp4" title="trajectory_reader_publisher"></video>
+![Trajectory Reader Publisher in Action](media/trajectory_reader_publisher.gif)
