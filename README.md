@@ -68,10 +68,9 @@ This [trajectory_publisher_saver.yaml](`config/trajectory_publisher_saver.yaml`)
 
 **Change this as per your wish**
 
-> [!WARNINIG]
-> `odom_topic` in this config should not be changed in this example as turtlebot3 uses `/odom` topic only. <br>
+> [!WARNING]
+>`odom_topic` in this config should not be changed in this example as turtlebot3 uses `/odom` topic only. <br>
 > if you change the `marker_topic` please don't forget to change it in the rviz2.
-
 
 ```
 trajectory_publisher_saver:
