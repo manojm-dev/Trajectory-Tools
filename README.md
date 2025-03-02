@@ -1,5 +1,7 @@
 # Trajectory Visualization and Storage for AMR Navigation
 
+![Trajectory Visualization and Storage for AMR Navigation](media/trajectory_publisher_saver.png)
+
 ## Problem Statement
 
 In a manufacturing facility, an AMR moves materials between production stations. It uses ROS for navigation, mapping, and path planning. As it moves along predefined paths, tracking its trajectory is vital for monitoring and analysis. Manual handling of trajectory data for each navigation session is cumbersome and error-prone. Additionally, setting up RViz manually for each navigation session is inefficient, especially in a busy production environment. This problem seeks ROS nodes to automate trajectory visualization in RViz and facilitate easy storage in various file formats.
