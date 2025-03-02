@@ -1,0 +1,11 @@
+<launch>
+  <!-- Set the TURTLEBOT3_MODEL environment variable -->
+  <env name="TURTLEBOT3_MODEL" value="waffle" />
+
+  <!-- Launch the TurtleBot3 Gazebo world -->
+  <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_world.launch" />
+
+  <!-- Launch the TurtleBot3 Navigation stack -->
+  <include file="$(find trajectory_tools)/launch/turtlebot3_navigation.launch" />
+  
+</launch>

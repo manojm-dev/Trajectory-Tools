@@ -1,0 +1,38 @@
+<package format="2">
+  <name>trajectory_tools</name>
+  <version>0.0.0</version>
+  <description>The trajectory_tools package</description>
+
+  <maintainer email="user@todo.todo">user</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>std_srvs</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>nlohmann-json-dev</build_depend>
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>std_srvs</exec_depend>
+  <exec_depend>rviz</exec_depend>
+  <exec_depend>turtlebot3</exec_depend>
+  <exec_depend>turtlebot3_simulations</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>gazebo_ros_pkgs</exec_depend>
+  <exec_depend>dwa_local_planner</exec_depend>
+
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+  </export>
+</package>
