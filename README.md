@@ -225,7 +225,7 @@ This will start the gazebo simulation environment with turtlebot3 and rviz2.
 
 **Start the Simulation**
 ```
-ros2 launch trajectory_tools turtlebot3.launch
+roslaunch trajectory_tools turtlebot3.launch
 ```
 
 ### 2. Running the Trajectory Publisher and Saver Node
